@@ -13,7 +13,6 @@ fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${search_element}`)
         return response.json();
     })
     .then((data) => {
-      console.log(data)
 
         const wrapper_origin = document.createElement("div");
         wrapper_origin.setAttribute("id","wrapper_origin")
