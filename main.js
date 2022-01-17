@@ -123,7 +123,7 @@ content.append(wrapper);
     const h3= document.createElement("h3");
     h3.innerHTML =`<span style="color:red;">Sorry ! </span>Data not found!`;
       const img = document.createElement("img");
-      img.src="../img/data.svg"
+      img.src="./img/data.svg"
       error_div.append(img)
       error_div.append(h3)
       content.append(error_div);
