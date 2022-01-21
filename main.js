@@ -11,6 +11,7 @@ var search_element = document.querySelector("#search").value;
     if (search_element === "") {
    alert("Enter any word")
 } 
+    if(search_element)
 fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${search_element}`)
     .then((response) => {
         return response.json();
