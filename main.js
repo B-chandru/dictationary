@@ -8,6 +8,9 @@ form.addEventListener("submit",(e)=>{
     e.preventDefault();
     content.replaceChildren();
 var search_element = document.querySelector("#search").value;
+    if (search_element === "") {
+   alert("Enter any word")
+} 
 fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${search_element}`)
     .then((response) => {
         return response.json();
@@ -118,6 +121,7 @@ content.append(wrapper);
     })
     .catch(function(error) {
       console.log(error);
+     content.replaceChildren();
       const error_div = document.createElement("div");
       error_div.setAttribute("id","error_div")
     const h3= document.createElement("h3");
