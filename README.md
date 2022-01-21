@@ -15,4 +15,4 @@ I have used   <a href="https://api.dictionaryapi.dev/api/v2/entries/en/happy" ta
 
 ## Live site
 
-https://b-chandru.github.io/dictationary/
+https://b-chandru.github.io/dictionary/
