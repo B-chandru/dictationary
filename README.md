@@ -1,5 +1,5 @@
 
-# Dictationary
+# Dictionary
 <ul>
 <li>
 This website is used to find the meaning,origin,antonyms and synonyms of the word that you are searching.
